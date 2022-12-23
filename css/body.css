@@ -2,4 +2,5 @@
   background: var(--gray50);
   color: var(--gray10);
   font-family: var(--baseFont);
+  margin: 0;
 }
