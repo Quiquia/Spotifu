@@ -1,0 +1,33 @@
+:root {
+  --sidebarInlineSize: 17.5rem;
+  --minBlockSize: 37.5rem; /* medida estandar para que se ve bien spotifu*/
+  --minInlineSize: 48rem;
+  --buttomSize: 5.5rem; /* alto de footer*/
+}
+
+.layout {
+  min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar {
+  inline-size: var(--sidebarInlineSize);
+  min-block-size: var(--minBlockSize);
+  block-size: calc(100vh - var(--buttomSize));
+  overflow-y: auto;
+  flex-shrink: 0;
+  background: var(--gray60);
+}
+
+.layout-main {
+  block-size: calc(100vh - var(--buttomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+}
+
+.layout-bottom {
+  flex: 1;
+}
+
+.layout-block {
+  display: flex;
+}

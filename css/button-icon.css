@@ -5,6 +5,8 @@
   border-radius: 50%;
   border: none;
   cursor: pointer;
+
+  color: var(--gray10);
 }
 
 .buttonIcon.is-white {

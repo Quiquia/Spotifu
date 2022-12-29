@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+  /* background-color: red; */
+  inline-size: 0.5rem;
+  block-size: 0.5rem;
+}
+
+/* ::-webkit-scrollbar-button {
+  background-color: blue;
+} */
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: var(--gray60);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray50);
+}
+
+/* ::-webkit-scrollbar-thumb:horizontal {
+  background-color: yellow;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background-color: pink;
+}
+
+.playlistList-container::-webkit-scrollbar-thumb:horizontal {
+  background-color: black;
+} */

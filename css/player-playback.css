@@ -1,0 +1,14 @@
+.playerPlayback {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.playerPlayback-progressTime {
+  font: var(--smallFont);
+  line-height: 1;
+}
+
+.playerPlayback-slider {
+  flex: 1;
+}
