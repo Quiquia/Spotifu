@@ -1,0 +1,39 @@
+.song {
+  background: inherit;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-block-start: 5.4375rem;
+  margin-block-end: 1rem;
+}
+
+.song-content {
+  inline-size: 20.25rem;
+  color: var(--white);
+}
+
+.song-title {
+  font: var(--headline1);
+  margin: 0;
+  margin-block-end: 1rem;
+}
+
+.song-description {
+  font: var(--baseFont);
+  margin: 0;
+}
+
+.song-control {
+  color: var(--white);
+  font: var(--button);
+  background: var(--primary);
+  margin-block-start: 1rem;
+
+  border-radius: 4.375rem;
+  border: none;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
+}

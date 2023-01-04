@@ -1,0 +1,23 @@
+@import "./filter.css";
+@import "./list-music.css";
+@import "./song.css";
+
+.pagePlayList {
+  background-image: inherit;
+  padding-inline-start: 2em;
+  padding-inline-end: 2em;
+}
+
+.pagePlayList .header {
+  margin-block-end: 1rem;
+  margin-inline-end: -1.5rem;
+  margin-inline-start: -1.5rem;
+}
+
+.pagePlayList-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagePlayList-img {
+}

@@ -1,0 +1,41 @@
+.filter {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+
+  /* background: var(--gray20); */
+}
+
+.filter-search {
+  position: relative;
+  color: var(--white);
+}
+
+.filter-search i {
+  position: absolute;
+  font-size: 1rem;
+  left: 0.5rem;
+  block-size: 1rem;
+  top: calc(50% - 0.5rem);
+}
+
+.filter-search input {
+  font: var(--button);
+  border: none;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  width: 100%;
+  background: inherit;
+}
+
+.filter-search input::-webkit-input-placeholder {
+  color: var(--gray10);
+}
+
+.filter-search input:hover {
+  background: var(--gray20);
+}
+
+.filter-search:hover,
+.filter-search:hover input::-webkit-input-placeholder {
+  color: var(--white);
+}
