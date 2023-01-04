@@ -6,6 +6,9 @@
   background-image: inherit;
   padding-inline-start: 2em;
   padding-inline-end: 2em;
+
+  background: url(../images/image1.png);
+  background-size: cover;
 }
 
 .pagePlayList .header {
@@ -17,7 +20,4 @@
 .pagePlayList-block {
   display: flex;
   flex-direction: column;
-}
-
-.pagePlayList-img {
 }
