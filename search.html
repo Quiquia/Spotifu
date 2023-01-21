@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Spotifu - Mi playlist</title>
+    <title>Spotifu</title>
 
     <meta property="og:title" content="My proyecto de Spotifu con HTML y CSS" />
     <meta property="og:type" content="website" />
@@ -114,7 +114,7 @@
                   <span>Inicio</span>
                 </a>
               </li>
-              <li class="menuItem">
+              <li class="menuItem is-active">
                 <a href="./index.html" class="link">
                   <i class="icon-search" aria-hidden="true"></i>
                   <span>Buscar</span>
@@ -132,16 +132,14 @@
           <nav class="list" aria-labelledby="library-navigation">
             <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
             <ul class="list-content">
-              <li class="list-item is-active">
+              <li class="list-item">
                 <span class="ellipsis">
-                  <a class="link" href="#">Creada para ti</a>
+                  <a class="link" href="./playlist.html">Creada para ti</a>
                 </span>
               </li>
               <li class="list-item">
                 <span class="ellipsis">
-                  <a class="link" href="./listen.html"
-                    >Escuchado recientemente</a
-                  >
+                  <a class="link" href="#">Escuchado recientemente</a>
                 </span>
               </li>
               <li class="list-item">
@@ -213,7 +211,7 @@
       <!--------------------------------Main-------------------- ------------>
 
       <div class="layout-main">
-        <div class="pagePlayList">
+        <div class="listen-now">
           <div class="sticky">
             <div class="pagePlayList-block">
               <header
@@ -267,265 +265,102 @@
             </div>
           </div>
           <main class="pagePlayList-block">
-            <section class="playlistList" aria-labelledby="region1">
-              <div class="song">
-                <div class="song-content">
-                  <h1 class="song-title">Weathering With You</h1>
-                  <p class="song-description">Anime Hits</p>
-                  <p class="song-description">2,611,830 SEGUIDORES</p>
-                  <button class="song-control">REPRODUCIR</button>
-                </div>
+            <section class="search-music" aria-labelledby="region1">
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
               </div>
-            </section>
-            <section class="miPlayList" aria-labelledby="region2">
-              <div class="filter">
-                <form class="filter-search" role="search" aria-label="Filtrar">
-                  <i class="icon-search" aria-label="true"></i>
-                  <input type="search" placeholder="Filtrar" />
-                </form>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
               </div>
-            </section>
-            <section class="playlistList" aria-labelledby="region4">
-              <div class="listMusic">
-                <div class="listMusic-song">
-                  <span></span>
-                  <span></span>
-                  <span class="listMusic-subtitle">TÍTULO</span>
-                  <span class="listMusic-subtitle">ARTISTA</span>
-                  <span class="listMusic-subtitle">ÁLBUM</span>
-                  <i class="icon-calendar listMusic-subtitle"></i>
-                  <i class="icon-clock listMusic-subtitle"></i>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
-                <div class="listMusic-song">
-                  <button class="listMusic-iconControl">
-                    <i class="icon-play"></i>
-                  </button>
-                  <button class="listMusic-iconLike">
-                    <i class="icon-heart"></i>
-                  </button>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-title" href="#">Grand Escape</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-artist" href="#">RADWIMPS</a>
-                  </span>
-                  <span class="listMusic-details"
-                    ><a class="listMusic-album" href="#"
-                      >Weathering With Youe</a
-                    >
-                  </span>
-                  <span class="listMusic-details listMusic-date"
-                    >2021-02-10</span
-                  >
-                  <span class="listMusic-details listMusic-date">3:25</span>
-                </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
+              </div>
+              <div class="search-content">
+                <img class="search-img" src="./images/img-2.jpg"></img>
+                <p class="search-title">Title</p>
               </div>
             </section>
           </main>

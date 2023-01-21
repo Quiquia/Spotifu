@@ -12,6 +12,9 @@
 @import "./scrollbar.css";
 @import "./usser-session.css";
 @import "./page-playList.css";
+@import "./listen-now.css";
+@import "./like-music.css";
+@import "./search-music.css";
 
 :root {
   font-size: 14px;
